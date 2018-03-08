@@ -34,11 +34,13 @@
 
     section {
       display: flex;
-      flex-direction: row;
+      /*flex-direction: row;
+      flex-wrap: wrap; */
+      flex-flow: wrap; /* shorthand for lines above */
     }
 
     article {
-      flex: 200px;
+      flex: 200px; /* each article will be at least 200px wide */
     }
   </style>
 </head>
